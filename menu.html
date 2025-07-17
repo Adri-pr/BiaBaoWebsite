@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Browse BiaBao's full selection of authentic Chinese and Asian fusion dishes. View our Dinner, Lunch, Vegan, and Gluten-Free menus online or download them in PDF."> 
+    <meta name="keywords" content="BiaBao menu, Asian fusion food, dinner menu, lunch menu, vegan menu, gluten-free menu, Sligo restaurant, takeaway food, baozi, pho, curry, duck, noodles"> 
+    <title>BiaBao Menu</title>
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="icon" href="images/favicon.ico" type="image/gif"> 
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding-top: 120px;
+        }
+        h2 {
+            color: #FFC107;
+        }
+        .content
+        {
+            background-color:#141414;
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <header class="container">
+        <img src="images/BiaBaoLogo.png" alt="Bia Bao Logo" id="logo">
+        <h1>Bia Bao</h1>
+        <section class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon -->
+        </section>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li id="active"><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 style="margin-top: 20px; text-align: center;">Our Menu</h2>
+        
+        <section class="menu-gallery">
+            <figure>
+                <img src="images/Dinner1.png" alt="Dinner Menu Page 1">
+                <figcaption>Dinner Menu Page 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Dinner2.png" alt="Dinner Menu Page 2">
+                <figcaption>Dinner Menu Page 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Lunch1.png" alt="Lunch Menu Page 1">
+                <figcaption>Lunch Menu Page 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Lunch2.png" alt="Lunch Menu Page 2">
+                <figcaption>Lunch Menu Page 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/GlutenFree1.png" alt="Gluten Free Menu Page 1">
+                <figcaption>Gluten Free Menu Page 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/GlutenFree2.png" alt="Gluten Free Menu Page 2">
+                <figcaption>Gluten Free Menu Page 2</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Vegan1.png" alt="Vegan Menu Page 1">
+                <figcaption>Vegan Menu Page 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Vegan2.png" alt="Vegan Menu Page 2">
+                <figcaption>Vegan Menu Page 2</figcaption>
+            </figure>
+        </section>
+        
+        <section class="menu-downloads">
+            <h2>Download Our Menus</h2>
+            <p>Prefer a printable version? Get our full menus in PDF format below:</p>
+            <ul>
+                <li><a href="pdfMenu/Bia Bao 6Page 140x297mm Main Menu 58103 Current.pdf" target="_blank" download> Dinner Menu</a></li>
+                <li><a href="pdfMenu/Bia Bao Lunch Menu A4 55487 Current.pdf" target="_blank" download> Lunch Menu</a></li>
+                <li><a href="pdfMenu/Bia Bao Gluten free A4 58103 Current.pdf" target="_blank" download> Gluten-Free Menu</a></li>
+                <li><a href="pdfMenu/Bia Bao Vegan Menu 58103 Current.pdf" target="_blank" download> Vegan Menu</a></li>
+            </ul>
+        </section>
+        <aside>
+            <h2>Order Takeaway in Advance</h2>
+            <p>Call us to place your order and pick it up at your convenience!</p>
+            <p>📞 <a href="tel:+353719144796">(071) 914 4796</a> or <a href="tel:+353719144949">(071) 914 4949</a></p>
+        </aside>
+        
+        <!-- Menu Page Table with Dishes -->
+        <section id="menu">
+            <h2>Our Dishes</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="images/baozi.png" alt="Baozi">
+                        <p>Baozi</p>
+                    </td>
+                    <td>
+                        <img src="images/braisedBeef.jpg" alt="Braised Beef">
+                        <p>Taiwanese Braised Beef</p>
+                    </td>
+                    <td>
+                        <img src="images/CrispyDuck.jpg" alt="Crispy Roast Duck">
+                        <p>Crispy Roast Duck</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/koreanFriedRice.jpg" alt="Korean Fried Rice">
+                        <p>Korean Fried Rice</p>
+                    </td>
+                    <td>
+                        <img src="images/ipohKariDuckNS.jpg" alt="Ipoh Kari Duck Noodle Soup">
+                        <p>Ipoh Kari Duck Noodle Soup</p>
+                    </td>
+                    <td>
+                        <img src="images/thaiSweetChilliChicken.jpg" alt="Thai Sweet-Chilli Chicken">
+                        <p>Thai Sweet-Chilli Chicken</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/vietnamesePho.jpg" alt="Vietnamese Pho">
+                        <p>Vietnamese Pho</p>
+                    </td>
+                    <td>
+                        <img src="images/thaiGreenCurry.jpg" alt="Thai Green Curry">
+                        <p>Thai Green Curry</p>
+                    </td>
+                    <td>
+                        <img src="images/japaneseYakitori.jpg" alt="Japanese Yakitori">
+                        <p>Japanese Yakitori</p>
+                    </td>
+                </tr>
+                
+            </table>
+        </section>
+        
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 BiaBao. All rights reserved.</p>
+        <address>
+            31 Castle Street, Sligo, Ireland | 
+            Phone: <a href="tel:+353719144796">(071) 914 4796</a> or <a href="tel:+353719144949">(071) 914 4949</a> | 
+            Email: <a href="mailto:biabaosligo@gmail.com">biabaosligo@gmail.com</a>
+        </address>
+        <section class="social-icons">
+            Follow us on:
+            <a href="https://www.facebook.com/jalanjalansligo" target="_blank" aria-label="Facebook">
+                <img src="images/fcb.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/biabao_sligo/" target="_blank" aria-label="Instagram">
+                <img src="images/inst.png" alt="Instagram" class="social-icon">
+            </a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>   
+        </nav>
+    </footer>
+        
+</body>
+</html>
